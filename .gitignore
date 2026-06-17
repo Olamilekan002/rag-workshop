@@ -6,11 +6,3 @@ __pycache__/
 .DS_Store
 .venv/
 venv/
-
-# Facilitator-only (local; not for participant repo)
-README.facilitator.md
-docs/FACILITATOR_GUIDE.md
-docs/WORKSHOP_STEPS.md
-docs/SLIDES_OUTLINE.md
-slides/speaker_notes.md
-notebooks/01_rag_workshop_solution.ipynb
