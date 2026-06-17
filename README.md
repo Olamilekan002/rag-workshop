@@ -25,7 +25,7 @@ By the end, you will have a working Retrieval-Augmented Generation (RAG) system 
 ## Quick start
 
 ```bash
-git clone https://github.com/Olamilekan-Turing/rag-workshop.git
+git clone https://github.com/Olamilekan002/rag-workshop.git
 cd rag-workshop
 
 python3 -m venv .venv

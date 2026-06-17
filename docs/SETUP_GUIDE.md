@@ -22,7 +22,7 @@ You should see `3.10` or higher.
 ## Step 2: Download the repo
 
 ```bash
-git clone https://github.com/Olamilekan-Turing/rag-workshop.git
+git clone https://github.com/Olamilekan002/rag-workshop.git
 cd rag-workshop
 ```
 
