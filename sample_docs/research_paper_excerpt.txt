@@ -1,0 +1,30 @@
+RESEARCH PAPER EXCERPT (SAMPLE FOR WORKSHOP)
+
+Title: Retrieval-Augmented Generation for Domain-Specific Question Answering in African Higher Education
+
+Authors: Dr. A. Okafor, Dr. B. Adeyemi
+Journal: African Journal of Computing and Information Systems, 2025
+
+Abstract:
+Retrieval-Augmented Generation (RAG) combines information retrieval with large language model generation to produce answers grounded in external documents. This study evaluates RAG pipelines for answering questions from university policy documents, research repositories, and course materials in three Nigerian institutions. Results show that RAG significantly reduces hallucination compared to standalone LLM prompting, especially for factual queries about institutional policies and academic regulations.
+
+Introduction:
+Large language models excel at general language tasks but often fail when asked about organization-specific or domain-specific knowledge. In higher education settings, lecturers and researchers frequently need systems that can answer questions from internal documents such as senate regulations, research ethics guidelines, and departmental handbooks. RAG addresses this limitation by retrieving relevant document chunks before generating a response.
+
+Methodology:
+The researchers implemented a baseline RAG pipeline using document chunking, sentence-transformer embeddings, a vector database, and an LLM for answer generation. Documents were split into 500-token chunks with 50-token overlap. Top-3 retrieved chunks were inserted into a structured prompt. Evaluation used 120 manually curated question-answer pairs across three domains: policy, research ethics, and teaching administration.
+
+Key Findings:
+1. RAG improved factual accuracy by 41% over zero-shot LLM prompting.
+2. Smaller chunk sizes (300-500 tokens) worked best for policy documents.
+3. Including source citations increased user trust in academic settings.
+4. Local embedding models reduced latency and API costs in low-bandwidth environments.
+5. Human reviewers preferred answers that explicitly stated when information was not found in the source documents.
+
+Discussion:
+For lecturers and researchers, RAG is particularly valuable because it supports literature review, policy lookup, and course material querying without requiring model fine-tuning. The main challenges identified were document quality, outdated PDFs, and the need for clear governance when using confidential research materials.
+
+Conclusion:
+RAG offers a practical pathway for integrating AI into teaching and research workflows in African universities. Future work should explore on-premise deployment for sensitive documents and multilingual support for local languages.
+
+Keywords: RAG, higher education, question answering, LLM, Nigeria

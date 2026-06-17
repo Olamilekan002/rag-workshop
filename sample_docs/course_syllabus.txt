@@ -1,0 +1,42 @@
+INTRODUCTION TO DATA SCIENCE AND AI - COURSE SYLLabus (SAMPLE)
+
+Course Code: CSC401
+Credit Units: 3
+Semester: Second Semester
+
+Course Description:
+This course introduces students to the foundations of data science and artificial intelligence. Students will learn data collection, cleaning, visualization, basic machine learning, and modern AI applications including large language models and retrieval-augmented generation (RAG).
+
+Learning Outcomes:
+By the end of this course, students should be able to:
+1. Explain the data science workflow from problem definition to deployment.
+2. Clean and visualize structured and unstructured data using Python.
+3. Build simple predictive models using scikit-learn.
+4. Describe how large language models work at a high level.
+5. Build a basic RAG system for document question answering.
+6. Evaluate AI systems for accuracy, bias, and responsible use.
+
+Weekly Topics:
+Week 1: Introduction to Data Science and Python for Data Analysis
+Week 2: Data Cleaning, Exploration, and Visualization
+Week 3: Statistics and Probability for Data Science
+Week 4: Machine Learning Fundamentals
+Week 5: Supervised Learning - Classification and Regression
+Week 6: Unsupervised Learning and Model Evaluation
+Week 7: Introduction to Natural Language Processing
+Week 8: Large Language Models and Prompt Engineering
+Week 9: Embeddings, Vector Search, and RAG
+Week 10: AI Ethics, Bias, and Responsible AI in Nigeria
+Week 11: Group Project Presentations
+Week 12: Revision and Examination
+
+Assessment:
+Continuous Assessment: 30%
+Project: 20%
+Final Examination: 50%
+
+Required Tools:
+Python 3.10+, Jupyter Notebook, pandas, matplotlib, scikit-learn, and access to a free LLM API for the RAG module.
+
+Office Hours:
+Wednesdays 2:00 PM - 4:00 PM, Faculty of Computing.
