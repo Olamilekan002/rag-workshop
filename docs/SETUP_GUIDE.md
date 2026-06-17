@@ -49,6 +49,14 @@ pip install -r requirements.txt
 
 This may take a few minutes the first time.
 
+Register the project kernel for Jupyter/Cursor:
+
+```bash
+python -m ipykernel install --user --name=rag-workshop --display-name="Python (rag-workshop)"
+```
+
+In the notebook, select **`Python (rag-workshop)`** as the kernel (top-right).
+
 ## Step 5: Add your API key
 
 1. Get a free key: https://aistudio.google.com/apikey
@@ -90,6 +98,7 @@ You will swap this in during the final section.
 
 | Problem | Fix |
 |---------|-----|
+| `ModuleNotFoundError: langchain_community` | Select kernel **`Python (rag-workshop)`**, or run `pip install -r requirements.txt` inside `.venv` and register the kernel (Step 4) |
 | `GEMINI_API_KEY` error | Check `.env` file and restart notebook kernel |
 | `pip install` fails | Upgrade pip: `python -m pip install --upgrade pip` |
 | Slow first run | Normal. Embedding model downloads once |

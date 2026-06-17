@@ -24,18 +24,24 @@ st.caption("Workshop demo: Retrieval-Augmented Generation running locally on you
 
 with st.sidebar:
     st.header("Setup")
+    from rag_pipeline import get_llm_provider, DEFAULT_OLLAMA_MODEL
+
+    provider = get_llm_provider()
     st.markdown(
-        """
-        1. Add your `GEMINI_API_KEY` in `.env`
-        2. Build or load the vector store below
-        3. Ask questions in the chat
+        f"""
+        **LLM:** `{provider}` (free local via Ollama by default)
+
+        1. Install Ollama: [ollama.com](https://ollama.com)
+        2. Pull model: `ollama pull {DEFAULT_OLLAMA_MODEL}`
+        3. Build or load the vector store below
+        4. Ask questions in the chat
         """
     )
 
     if st.button("Build vector store from sample docs"):
         with st.spinner("Loading documents, chunking, and embedding..."):
             build_pipeline_from_folder(DEFAULT_DOCS_DIR, DEFAULT_CHROMA_DIR)
-        st.success("Vector store ready.")
+        st.success("Vector store ready. Rebuild after document or pipeline changes.")
 
     if DEFAULT_CHROMA_DIR.exists():
         st.info("Found local vector store at `chroma_db/`")
