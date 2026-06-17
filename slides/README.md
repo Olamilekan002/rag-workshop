@@ -8,7 +8,7 @@ Complete slide deck for the RAG workshop.
 |------|---------|
 | `index.html` | **Ready to present** — open in any browser |
 | `rag_workshop_slides.marp.md` | Editable source (Marp format) |
-| `speaker_notes.md` | Full speaker notes for every slide |
+| `rag_workshop_slides.pptx` | PowerPoint export |
 
 ## Present immediately (no install)
 
