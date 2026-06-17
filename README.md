@@ -17,6 +17,8 @@ By the end, you will have a working Retrieval-Augmented Generation (RAG) system 
 ├── notebooks/
 │   └── 01_rag_workshop.ipynb
 ├── sample_docs/             # Starter documents
+├── slides/
+│   └── rag_workshop_slides.pdf
 └── docs/
     ├── SETUP_GUIDE.md       # Read this before the event
     └── LOCAL_RUN.md         # How to run everything locally
