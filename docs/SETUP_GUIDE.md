@@ -1,7 +1,3 @@
-# Pre-Event Setup Guide
-
-Send this to participants **3 to 5 days before** the workshop.
-
 ## What you need
 
 - Laptop (Mac, Windows, or Linux)
