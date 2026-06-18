@@ -9,6 +9,21 @@ Send this to participants **3 to 5 days before** the workshop.
 - Stable internet (for first-time package/model download and Gemini API)
 - A free Google Gemini API key
 
+## Option A: Google Colab (easiest)
+
+No Python install or terminal required. Open the workshop notebook in Colab:
+
+https://colab.research.google.com/drive/1piTDy4enTDSodTezcVjJ_Jg0E535uW2C?usp=sharing
+
+1. Get a Gemini API key: https://aistudio.google.com/apikey
+2. In Colab, open **Secrets** (key icon in the left sidebar)
+3. Add `GEMINI_API_KEY` and enable **Notebook access**
+4. Run all cells top to bottom
+
+Skip to **Step 6** below only if you want to test the local Streamlit app later.
+
+## Option B: Local setup (laptop)
+
 ## Step 1: Install Python
 
 Check your version:
