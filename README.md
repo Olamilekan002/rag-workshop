@@ -135,10 +135,3 @@ For sensitive research data, prefer on-prem/local deployment.
 | Gemini API | https://ai.google.dev/ |
 | Hugging Face NLP course | https://huggingface.co/learn/nlp-course/ |
 | Streamlit docs | https://docs.streamlit.io/ |
-
-### Suggested 30-day plan
-
-- **Week 1:** Rebuild today's project on your own document
-- **Week 2:** Improve retrieval quality and add citations
-- **Week 3:** Build one agent with 2-3 tools
-- **Week 4:** Present a 5-minute demo to your team or department
