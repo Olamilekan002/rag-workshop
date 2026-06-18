@@ -15,7 +15,8 @@ By the end, you will have a working Retrieval-Augmented Generation (RAG) system 
 ├── scripts/
 │   └── build_vector_store.py
 ├── notebooks/
-│   └── 01_rag_workshop.ipynb
+│   ├── 01_rag_workshop.ipynb
+│   └── 01_rag_workshop_colab.ipynb
 ├── sample_docs/             # Starter documents
 ├── slides/
 │   └── rag_workshop_slides.pdf
@@ -42,6 +43,14 @@ streamlit run app.py
 ```
 
 Get a free Gemini API key: https://aistudio.google.com/apikey
+
+## Google Colab (no local setup)
+
+Open the workshop in Colab — no terminal, venv, or Jupyter install required. Add your Gemini API key in **Colab Secrets** (`GEMINI_API_KEY`).
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1piTDy4enTDSodTezcVjJ_Jg0E535uW2C?usp=sharing)
+
+Direct link: https://colab.research.google.com/drive/1piTDy4enTDSodTezcVjJ_Jg0E535uW2C?usp=sharing
 
 ## Before the workshop
 
